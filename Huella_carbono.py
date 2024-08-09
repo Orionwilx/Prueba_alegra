@@ -1,15 +1,11 @@
 # Calculadora de Huella de Carbono
-# 
-# Este script calcula la huella de carbono de una persona en base al número de kilómetros recorridos
-# semanalmente en coche, autobús y bicicleta. Usa las siguientes tasas de emisión:
-# - Coche: 0.21 kg de CO2 por kilómetro
-# - Autobús: 0.1 kg de CO2 por kilómetro
-# - Bicicleta: 0 kg de CO2 por kilómetro
-#
-# Para ejecutar este script, simplemente sigue las instrucciones y proporciona el número de kilómetros
-# que recorres en coche, autobús y bicicleta cada semana.
-#
-# Al final, el script mostrará la huella total de carbono en kilogramos de CO2.
+# Propósito: El script calcula la huella de carbono semanal de una persona basándose en los kilómetros recorridos en coche, autobús y bicicleta.
+
+# Cómo ejecutarlo:
+
+# Cuando se ejecuta el script, el usuario debe ingresar los kilómetros que recorre semanalmente en cada tipo de transporte.
+# El script usa tasas de emisión predeterminadas para calcular la huella de carbono en kilogramos de CO2.
+# Finalmente, muestra el resultado al usuario en la consola.
 
 def calcular_huella_carbono():
     # Tasa de emisión de CO2 en kg por kilómetro
